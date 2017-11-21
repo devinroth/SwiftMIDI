@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		030954471FC4AF74002095EA /* SwiftMIDI.h in Headers */ = {isa = PBXBuildFile; fileRef = 030954451FC4AF74002095EA /* SwiftMIDI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03251B8E1FC4C925001D76C8 /* SwiftMIDI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03251B8D1FC4C925001D76C8 /* SwiftMIDI.swift */; };
+		03D2AC511FC4C669007F88C7 /* SwiftMIDI.h in Headers */ = {isa = PBXBuildFile; fileRef = 03D2AC4F1FC4C669007F88C7 /* SwiftMIDI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		030954421FC4AF74002095EA /* SwiftMIDI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftMIDI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		030954451FC4AF74002095EA /* SwiftMIDI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftMIDI.h; sourceTree = "<group>"; };
-		030954461FC4AF74002095EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03251B8D1FC4C925001D76C8 /* SwiftMIDI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftMIDI.swift; sourceTree = "<group>"; };
+		03D2AC4C1FC4C669007F88C7 /* SwiftMIDI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftMIDI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		03D2AC4F1FC4C669007F88C7 /* SwiftMIDI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftMIDI.h; sourceTree = "<group>"; };
+		03D2AC501FC4C669007F88C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0309543E1FC4AF74002095EA /* Frameworks */ = {
+		03D2AC481FC4C669007F88C7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -27,53 +29,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		030954381FC4AF74002095EA = {
+		03251B8C1FC4C925001D76C8 /* SwiftMIDI */ = {
 			isa = PBXGroup;
 			children = (
-				030954441FC4AF74002095EA /* SwiftMIDI */,
-				030954431FC4AF74002095EA /* Products */,
+				03251B8D1FC4C925001D76C8 /* SwiftMIDI.swift */,
+			);
+			name = SwiftMIDI;
+			path = ../SwiftMIDI;
+			sourceTree = "<group>";
+		};
+		03D2AC421FC4C669007F88C7 = {
+			isa = PBXGroup;
+			children = (
+				03D2AC4F1FC4C669007F88C7 /* SwiftMIDI.h */,
+				03D2AC501FC4C669007F88C7 /* Info.plist */,
+				03251B8C1FC4C925001D76C8 /* SwiftMIDI */,
+				03D2AC4D1FC4C669007F88C7 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		030954431FC4AF74002095EA /* Products */ = {
+		03D2AC4D1FC4C669007F88C7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				030954421FC4AF74002095EA /* SwiftMIDI.framework */,
+				03D2AC4C1FC4C669007F88C7 /* SwiftMIDI.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		030954441FC4AF74002095EA /* SwiftMIDI */ = {
-			isa = PBXGroup;
-			children = (
-				030954451FC4AF74002095EA /* SwiftMIDI.h */,
-				030954461FC4AF74002095EA /* Info.plist */,
-			);
-			path = SwiftMIDI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0309543F1FC4AF74002095EA /* Headers */ = {
+		03D2AC491FC4C669007F88C7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				030954471FC4AF74002095EA /* SwiftMIDI.h in Headers */,
+				03D2AC511FC4C669007F88C7 /* SwiftMIDI.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		030954411FC4AF74002095EA /* SwiftMIDI */ = {
+		03D2AC4B1FC4C669007F88C7 /* SwiftMIDI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0309544A1FC4AF74002095EA /* Build configuration list for PBXNativeTarget "SwiftMIDI" */;
+			buildConfigurationList = 03D2AC541FC4C669007F88C7 /* Build configuration list for PBXNativeTarget "SwiftMIDI" */;
 			buildPhases = (
-				0309543D1FC4AF74002095EA /* Sources */,
-				0309543E1FC4AF74002095EA /* Frameworks */,
-				0309543F1FC4AF74002095EA /* Headers */,
-				030954401FC4AF74002095EA /* Resources */,
+				03D2AC471FC4C669007F88C7 /* Sources */,
+				03D2AC481FC4C669007F88C7 /* Frameworks */,
+				03D2AC491FC4C669007F88C7 /* Headers */,
+				03D2AC4A1FC4C669007F88C7 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -81,43 +85,43 @@
 			);
 			name = SwiftMIDI;
 			productName = SwiftMIDI;
-			productReference = 030954421FC4AF74002095EA /* SwiftMIDI.framework */;
+			productReference = 03D2AC4C1FC4C669007F88C7 /* SwiftMIDI.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		030954391FC4AF74002095EA /* Project object */ = {
+		03D2AC431FC4C669007F88C7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = "Devin Roth";
 				TargetAttributes = {
-					030954411FC4AF74002095EA = {
+					03D2AC4B1FC4C669007F88C7 = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 0309543C1FC4AF74002095EA /* Build configuration list for PBXProject "macOS" */;
+			buildConfigurationList = 03D2AC461FC4C669007F88C7 /* Build configuration list for PBXProject "macOS" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 030954381FC4AF74002095EA;
-			productRefGroup = 030954431FC4AF74002095EA /* Products */;
+			mainGroup = 03D2AC421FC4C669007F88C7;
+			productRefGroup = 03D2AC4D1FC4C669007F88C7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				030954411FC4AF74002095EA /* SwiftMIDI */,
+				03D2AC4B1FC4C669007F88C7 /* SwiftMIDI */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		030954401FC4AF74002095EA /* Resources */ = {
+		03D2AC4A1FC4C669007F88C7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -127,17 +131,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0309543D1FC4AF74002095EA /* Sources */ = {
+		03D2AC471FC4C669007F88C7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03251B8E1FC4C925001D76C8 /* SwiftMIDI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		030954481FC4AF74002095EA /* Debug */ = {
+		03D2AC521FC4C669007F88C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -197,7 +202,7 @@
 			};
 			name = Debug;
 		};
-		030954491FC4AF74002095EA /* Release */ = {
+		03D2AC531FC4C669007F88C7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -249,7 +254,7 @@
 			};
 			name = Release;
 		};
-		0309544B1FC4AF74002095EA /* Debug */ = {
+		03D2AC551FC4C669007F88C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
@@ -261,7 +266,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = SwiftMIDI/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
@@ -272,7 +277,7 @@
 			};
 			name = Debug;
 		};
-		0309544C1FC4AF74002095EA /* Release */ = {
+		03D2AC561FC4C669007F88C7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
@@ -284,7 +289,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = SwiftMIDI/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
@@ -298,25 +303,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0309543C1FC4AF74002095EA /* Build configuration list for PBXProject "macOS" */ = {
+		03D2AC461FC4C669007F88C7 /* Build configuration list for PBXProject "macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				030954481FC4AF74002095EA /* Debug */,
-				030954491FC4AF74002095EA /* Release */,
+				03D2AC521FC4C669007F88C7 /* Debug */,
+				03D2AC531FC4C669007F88C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0309544A1FC4AF74002095EA /* Build configuration list for PBXNativeTarget "SwiftMIDI" */ = {
+		03D2AC541FC4C669007F88C7 /* Build configuration list for PBXNativeTarget "SwiftMIDI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0309544B1FC4AF74002095EA /* Debug */,
-				0309544C1FC4AF74002095EA /* Release */,
+				03D2AC551FC4C669007F88C7 /* Debug */,
+				03D2AC561FC4C669007F88C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 030954391FC4AF74002095EA /* Project object */;
+	rootObject = 03D2AC431FC4C669007F88C7 /* Project object */;
 }

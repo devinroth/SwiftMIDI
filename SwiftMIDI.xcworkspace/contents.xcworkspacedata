@@ -14,10 +14,10 @@
       location = "container:"
       name = "Framework">
       <FileRef
-         location = "group:Framework/macOS/macOS.xcodeproj">
+         location = "group:Framework/iOS/iOS.xcodeproj">
       </FileRef>
       <FileRef
-         location = "group:Framework/iOS/iOS.xcodeproj">
+         location = "group:Framework/macOS/macOS.xcodeproj">
       </FileRef>
    </Group>
 </Workspace>
