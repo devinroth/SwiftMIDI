@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Playgrounds.playground">
+   </FileRef>
+   <Group
+      location = "container:"
+      name = "Framework">
+      <FileRef
+         location = "group:Framework/macOS/macOS.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Framework/iOS/iOS.xcodeproj">
+      </FileRef>
+   </Group>
+</Workspace>
